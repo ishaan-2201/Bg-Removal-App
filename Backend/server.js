@@ -2,6 +2,7 @@ import express from "express";
 import "dotenv/config";
 import cors from "cors";
 import connectToDB from "./configs/db.js";
+import userRouter from "./routes/userRoutes.js";
 
 //App config
 
@@ -16,5 +17,7 @@ app.use(cors());
 app.get("/", (req, res) =>
   res.send("Hello from backend, and also to vercel:)")
 );
+
+app.use("/api/user", userRouter);
 
 app.listen(PORT, () => console.log("Server running on port " + PORT));

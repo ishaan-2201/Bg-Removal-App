@@ -5,11 +5,12 @@ import BuyCredit from "./pages/BuyCredit";
 import Result from "./pages/Result";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import { SignedOut, SignInButton } from "@clerk/clerk-react";
+import { ToastContainer } from "react-toastify";
 
 const App = () => {
   return (
     <div className="min-h-screen bg-slate-50">
+      <ToastContainer position="bottom-right" />
       {/* Navbar component */}
       <Navbar />
       <Routes>

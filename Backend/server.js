@@ -3,6 +3,7 @@ import "dotenv/config";
 import cors from "cors";
 import connectToDB from "./configs/db.js";
 import userRouter from "./routes/userRoutes.js";
+import imageRouter from "./routes/imageRoutes.js";
 
 //App config
 
@@ -19,5 +20,7 @@ app.get("/", (req, res) =>
 );
 
 app.use("/api/user", userRouter);
+
+app.use("/api/image", imageRouter);
 
 app.listen(PORT, () => console.log("Server running on port " + PORT));

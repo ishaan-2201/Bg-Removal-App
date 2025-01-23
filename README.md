@@ -54,3 +54,21 @@ The application is deployed on Vercel and can be accessed at:
 - Use Razorpay integration for secure payments.
 
 - Credits are added to the user's account upon successful payment.
+
+## Screenshots
+
+Home Page:
+
+<img width="929" alt="" src="https://github.com/ishaan-2201/Bg-Removal-App/blob/main/Home-Page.png?raw=true">
+
+Results Page:
+
+<img width="929" alt="" src="https://github.com/ishaan-2201/Bg-Removal-App/blob/main/Results-Page.png?raw=true">
+
+Buy Credits Page:
+
+<img width="929" alt="" src="https://github.com/ishaan-2201/Bg-Removal-App/blob/main/Buy-Credits-Page.png?raw=true">
+
+RazorPay Integration:
+
+<img width="929" alt="" src="https://github.com/ishaan-2201/Bg-Removal-App/blob/main/RazorPay-Integration.png?raw=true">

@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 
-//Middleware function to decode jwt token to get clerkId and attacj it to req.body
+//Middleware function to decode jwt token to get clerkId and attach it to req.body
 const authUser = async (req, res, next) => {
   try {
     const { token } = req.headers;
